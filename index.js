@@ -22,7 +22,7 @@ function johnLennonFacts(detail) {
   var detail_exclamation = [];
   var i = 0;
   while (i < detail.length) {
-    results.push(detail[i] + "!!!");
+    detail.push(detail[i] + "!!!");
     i++;
   }
   return detail_exclamation
