@@ -16,3 +16,13 @@ function johnLennonFacts(detail) {
   }
   return detail_exclamation
 }
+
+
+function iLoveTheBeatles(num) {
+  var empty_array = [];
+  do {
+    empty_array.push("I love the Beatles!")
+    num++;
+  } while (num < 15);
+  return empty_array;
+}
