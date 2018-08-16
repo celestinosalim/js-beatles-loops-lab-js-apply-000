@@ -15,5 +15,5 @@ function johnLennonFacts(){
     facts_with_exclamation.push(facts[i] + "!!!")
     i++;
   }
-  return newFacts;
+  return facts_with_exclamation;
 }
